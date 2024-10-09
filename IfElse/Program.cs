@@ -5,7 +5,9 @@ Console.Write("Bir sayı girin: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
 
+#region Control-1
 
+    
 // Girdiği sayının 10'dan büyük mü, küçük mü veya 0' mı olduğunu kontrol edip konsol ekranına yazdırıyoruz
 
 if (num > 10)
@@ -22,6 +24,10 @@ else
 }
 
 
+#endregion
+
+#region Control-2
+    
 
 // Girilen sayının tek mi çift mi olduğunu kontrol edip, konsol ekranına yazdırıyoruz
 
@@ -36,5 +42,8 @@ if (num > 0 || num < 0)
         Console.WriteLine("Girilen sayı tektir");
     }
 }
+
+
+#endregion
 
 
